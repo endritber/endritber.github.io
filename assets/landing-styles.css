@@ -1,0 +1,14 @@
+.square-img {
+  border-radius: 8px;
+  object-fit: cover;
+  height: 460px;
+  width: 460px;
+}
+
+.contact-button {
+  background-color: rgb(37, 85, 153);
+}
+
+.leading {
+  color: rgb(37, 85, 153); 
+}

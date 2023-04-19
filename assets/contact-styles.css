@@ -1,0 +1,71 @@
+.square-img {
+  border-radius: 8px;
+  object-fit: cover;
+  height: 460px;
+  width: 460px;
+}
+
+.contact-button {
+  background-color: rgb(37, 85, 153);
+}
+
+.leading {
+  color: rgb(37, 85, 153); 
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
