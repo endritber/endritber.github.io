@@ -16,10 +16,59 @@
 			background: #ffffff;
 		}
 		
+			/* Cookie Popup CSS */
+		#cookie-popup {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: #f5f5f5;
+			padding: 10px;
+			box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.3);
+		}
+
+		.cookie-popup-text {
+			display: inline-block;
+			margin-right: 20px;
+			font-size: 14px;
+		}
+
+		.cookie-popup-actions {
+			display: inline-block;
+		}
+
+		#cookie-popup-accept {
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 14px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		#cookie-popup-accept:hover {
+			background-color: #3e8e41;
+		}
+
+
 	</style>	
 </head>
 
 <body>
+	<!-- Cookie Popup HTML -->
+	<div id="cookie-popup">
+		<div class="cookie-popup-text">
+			<p>We use cookies to ensure you get the best experience on our website. By continuing to use our site, you consent to our use of cookies.</p>
+		</div>
+		<div class="cookie-popup-actions">
+			<button id="cookie-popup-accept">Accept</button>
+		</div>
+	</div>
+	
 	<nav class="px-6 fixed w-full top-0 right-0 bg-hero flex items-center justify-center py-6 z-40">
 		<div class="flex justify-between items-center max-w-6xl w-full">
 			<div class="cursor-pointer">
@@ -31,7 +80,7 @@
 				<a href="index.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Home</a>
 				<a href="about.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">About</a>
 				<a href="product.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Products</a>
-				<a href="#" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Services</a>
+				<a href="services.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Services</a>
 				<a href="#" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Projects</a>
 			</div>
 			<div class="ml-auto">
@@ -43,21 +92,21 @@
 	
 	
 	<hr class="my-6 border-gray-400">
-	
-	<div class="flex items-center justify-center h-screen bg-center bg-cover bg-opacity-80" style="background-image: url('assets/landing/111.jpg');">
+	<!-- TODO FIX TEXT INSIDE PIC CENTER -->
+	<div class="flex items-center justify-center h-screen bg-center bg-cover bg-opacity-50" style="background-image: url('assets/landing/111.jpg');">
 		<div class="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50"></div>
 		<div class="relative z-10 text-white text-center">
-			<h1 class="text-5xl font-bold mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-			<p class="text-xl font-light mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut magna quis metus pharetra aliquet.</p>
+			<h1 class="px-40 text-5xl font-bold mb-5">Your trusted source for efficient and effective Heating, Air Conditioning, and Ventilation Solutions</h1>
+			<p class="text-xl font-light mb-8"></p>
 			<button onclick="window.location.href='about.html'" class="w-full mt-4 sm:mt-0  sm:w-40 px-4 py-3 rounded font-semibold text-md text-white border-2 border-gray-300 rounded text-white hover:bg-blue-900">More About us</button>
 		</div>
 	</div>
 
-	<p class="mt-40 text-4xl text-blue-900 font-semibold text-center">Our Product Categories</p>
-	<div class="flex flex-wrap justify-center">
+	<p class="mt-20 text-4xl text-blue-900 font-semibold text-center">Our Products</p>
+	<div class="px-6 flex flex-wrap justify-center">
 		<div class="mt-20 w-full md:w-1/3 p-4">
 			<div class="relative">
-				<img src="assets/product/categories/2.-Toshiba-outdoor-units-1200x800.jpg" alt="Service 3" class="w-full object-cover" style="height: 797px;">
+				<img src="assets/product/categories/2.-Toshiba-outdoor-units-1200x800.jpg" alt="Service 3" class="w-full object-cover" style="height: 821px;">
 				<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
 					<h2 class="text-white text-center text-3xl font-bold">Toshiba VRF SMMSu </h2>
 				</div>
@@ -101,7 +150,7 @@
     <hr class="my-6 border-gray-400"> 
 
 		<p class="mt-20 text-4xl text-blue-900 font-semibold text-center">Our Services</p>
-		<div class="mt-12 flex flex-wrap justify-center">
+		<div class="px-6 mt-12 flex flex-wrap justify-center">
 			<div class="w-full md:w-1/3 p-4">
 				<div class="relative">
 					<img src="assets/services/blueprints-1837238_1280.jpg" alt="Service 3" class="w-full object-cover" style="height: 750px;">
@@ -139,16 +188,23 @@
 		</div>
 		
 		<div class="flex justify-center">
-			<button class="w-full mt-10 sm:mt-20 sm:ml-4 sm:w-40 px-4 py-3 rounded align-center font-semibold text-white bg-white leading border-2 border-gray-500 hover:bg-gray-200">
+			<button onclick="window.location.href='services.html'" class="w-full mt-10 sm:mt-20 sm:ml-4 sm:w-40 px-4 py-3 rounded align-center font-semibold text-white bg-white leading border-2 border-gray-500 hover:bg-gray-200">
 				See all services
 			</button>
 		</div>
+
+	<hr class="my-6 border-gray-400">	
+
+	<div class="contact-button", style="width: 300px;">
+
+	</div>
+
 		
 	<hr class="my-6 border-gray-400">
 	
   <footer class="bg-hero mt-10 py-12">
     <div class="max-w-8xl mx-auto px-6 lg:flex lg:justify-between lg:items-center">
-      <div class="lg:mb-0">
+      <div class="lg:mb-10">
         <a href="index.html">
           <img src="./logo/ventaire-logo.svg" width="150" height="60" alt="Ventaire logo" />
         </a>
@@ -170,12 +226,39 @@
           <h3 class="text-gray-700 font-medium">Contact Us</h3>
           <ul class="mt-4">
             <!-- TODO: add whatsapp and telegram -->
-            <li><p class="text-sm text-gray-600 inline-flex items-center"><i class="fa fa-phone mr-2"></i>+49 151 2021 1461</p></li>
-            <li><p class="text-sm text-gray-600 inline-flex items-center"><i class="fa fa-envelope mr-2"></i>info@ventaire.de</p></li>
+            <a href="https://wa.me/+4915120211461"><li><p class="text-sm text-gray-600 inline-flex items-center"><i class="fa fa-whatsapp mr-2"></i>+49 151 2021 1461</p></li></a>
+           <a href="mailto:info@ventaire.de"> <li><p class="text-sm text-gray-600 inline-flex items-center"><i class="fa fa-envelope mr-2"></i>info@ventaire.de</p></li></a>
           </ul>
         </div>
       </div>
     </div>
   </footer>
+	<script>
+		// Check for cookie
+		if (document.cookie.indexOf('cookieAccepted=true') !== -1) {
+			// Cookie found, do not show popup
+			document.getElementById('cookie-popup').style.display = 'none';
+		} else {
+			// Cookie not found, show popup
+			document.getElementById('cookie-popup').style.display = 'block';
+		}
+
+		// Set cookie function
+		function setCookie(name, value, days) {
+			var expires = '';
+			if (days) {
+				var date = new Date();
+				date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+				expires = '; expires=' + date.toUTCString();
+			}
+			document.cookie = name + '=' + (value || '') + expires + '; path=/';
+		}
+
+		// Accept cookie button click event
+		document.getElementById('cookie-popup-accept').addEventListener('click', function() {
+			setCookie('cookieAccepted', 'true', 365);
+			document.getElementById('cookie-popup').style.display = 'none';
+		});
+	</script>
 	</body>
 </html>

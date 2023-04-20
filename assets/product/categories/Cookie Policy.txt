@@ -1,0 +1,114 @@
+COOKIE POLICY:
+
+Cookie Policy for VENTAIRE
+
+This Cookie Policy describes how VENTAIRE uses cookies and similar technologies to collect information about your interactions with our website. By using our website, you consent to our use of cookies in accordance with this policy.
+
+1. What are cookies?
+Cookies are small text files that are placed on your device when you visit a website. They are commonly used to enable websites to function more efficiently, as well as to provide information to website owners about how their website is being used.
+
+2. What types of cookies do we use?
+We use both session cookies and persistent cookies on our website. Session cookies are temporary and are deleted when you close your browser. Persistent cookies remain on your device until they expire or you delete them manually.
+
+We use the following types of cookies on our website:
+
+- Strictly necessary cookies: These cookies are essential for our website to function properly. They enable you to navigate our website and use its features.
+- Performance cookies: These cookies collect information about how visitors use our website, such as which pages are visited most often. This information helps us to improve the performance of our website.
+- Functional cookies: These cookies enable our website to remember your preferences, such as your language or the region you are in.
+- Targeting cookies: These cookies are used to deliver personalized content and ads based on your interests and browsing history.
+
+3. How do we use cookies?
+We use cookies to:
+
+- Ensure that our website functions properly.
+- Improve the performance of our website by collecting information about how it is being used.
+- Personalize your experience on our website.
+- Deliver targeted content and ads that are relevant to your interests.
+
+4. Third-party cookies
+We use third-party cookies on our website. These cookies are placed by third-party service providers that we work with, such as analytics providers and advertising networks.
+
+5. Managing cookies
+You can manage cookies through the settings in your web browser. You can choose to block all cookies or only certain types of cookies. However, please note that blocking cookies may affect the functionality of our website.
+
+6. Changes to this Cookie Policy
+We may update this Cookie Policy from time to time. We will notify you of any changes by posting the updated policy on our website.
+
+7. Contact us
+If you have any questions about our Cookie Policy, please contact us at info@ventaire.de
+
+---
+
+
+PRIVACY POLICY:
+
+Privacy Policy
+
+Thank you for visiting our website. This Privacy Policy outlines how we collect, use, and disclose your personal information in accordance with the German Data Protection Act (BDSG) and the General Data Protection Regulation (GDPR).
+
+1. Data Controller
+
+The data controller for this website is:
+
+Ventaire UG, Lehmbruckstrasse 26, 10245 Berlin, Deutschland
+info@ventaire.de - +49 151 20211461
+
+2. Data Collection
+
+We may collect the following types of personal information from you:
+
+- Name, address, and contact information (e.g., email address, phone number)
+- Log data, such as your IP address, browser type, and operating system
+- Information about your use of our website, such as the pages you visit, the links you click, and the searches you conduct
+- Payment information, such as credit card details, if you make a purchase from us
+
+3. Data Use
+
+We may use your personal information for the following purposes:
+
+- To provide and improve our services, including to personalize your experience on our website
+- To communicate with you about our products, services, and promotions
+- To process your orders and payments
+- To comply with legal obligations, such as tax and accounting requirements
+- To investigate and prevent fraud and other illegal activities
+
+4. Data Disclosure
+
+We may disclose your personal information to the following types of third parties:
+
+- Service providers, such as payment processors and shipping companies, who help us to operate our business
+- Government authorities, such as tax authorities, if required by law
+- Other third parties with your consent
+
+5. Data Security
+
+We take appropriate technical and organizational measures to protect your personal information from unauthorized access, disclosure, or misuse. However, please note that no security measures are perfect and we cannot guarantee the security of your personal information.
+
+6. Data Retention
+
+We retain your personal information only for as long as necessary to fulfill the purposes for which we collected it, unless a longer retention period is required or permitted by law.
+
+7. Your Rights
+
+Under the GDPR, you have the following rights regarding your personal information:
+
+- Right of access: You have the right to request access to the personal information we hold about you.
+- Right of rectification: You have the right to request that we correct inaccurate or incomplete personal information about you.
+- Right of erasure: You have the right to request that we delete your personal information, subject to certain exceptions.
+- Right to restrict processing: You have the right to request that we limit the processing of your personal information, subject to certain exceptions.
+- Right to data portability: You have the right to receive your personal information in a structured, commonly used, and machine-readable format, and to transmit it to another data controller.
+- Right to object: You have the right to object to the processing of your personal information, subject to certain exceptions.
+- Right to withdraw consent: If we rely on your consent to process your personal information, you have the right to withdraw your consent at any time.
+
+To exercise your rights, please contact us using the contact details provided below.
+
+8. Contact Us
+
+If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
+
+[Insert Contact Details]
+
+We may update this Privacy Policy from time to time, and any changes will be posted on this page.
+
+
+
