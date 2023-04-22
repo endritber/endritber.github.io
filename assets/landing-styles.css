@@ -12,3 +12,31 @@
 .leading {
   color: rgb(37, 85, 153); 
 }
+
+@media only screen and (max-width: 767px) {
+
+ /* Adjust grid layout to 2 columns */
+  .partners-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Decrease logo heights and remove margin */
+  .partners-logo {
+    height: 5px;
+    margin: 0;
+  }
+  
+  /* Decrease font size and remove top margin */
+  .partners-text {
+    font-size: 27px;
+    margin-top: 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .theme-text {
+    font-size: 35px;
+  }
+}

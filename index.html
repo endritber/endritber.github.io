@@ -18,7 +18,6 @@
 		.bg-hero{
 			background: #ffffff;
 		}
-
 	</style>
 </head>
 
@@ -59,10 +58,10 @@
 	
 	<hr class="my-6 border-gray-400">
 	
-	<div class="flex items-center justify-center h-screen bg-center bg-cover bg-opacity-50 animate__animated animate__fadeInUp" style="background-image: url('assets/landing/theme.jpg');">
+	<div class="flex items-center justify-center h-screen bg-center bg-cover bg-opacity-50" style="background-image: url('assets/landing/theme.jpg');">
 		<div class="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50"></div>
 		<div class="relative z-10 text-white text-center">
-				<h1 class="px-40 text-5xl font-bold mb-5">Your trusted source for efficient and effective Heating, Air Conditioning, and Ventilation Solutions</h1>
+				<h1 class="theme-text px-40 text-5xl font-bold mb-5">Your trusted source for efficient and effective Heating, Air Conditioning, and Ventilation Solutions</h1>
 				<p class="text-xl font-light mb-8"></p>
 				<button onclick="window.location.href='about.html'" class="w-full mt-4 sm:mt-0  sm:w-40 px-4 py-3 rounded font-semibold text-md text-white border-2 border-gray-300 rounded text-white hover:bg-blue-900">More About us</button>
 		</div>
@@ -76,12 +75,12 @@
 		<p class="mt-20 text-4xl text-blue-900 font-semibold text-center">Our Products</p>
 		<div class="mt-20 grid grid-cols-3 gap-8">
 			<div class="relative" style="height: 800px">
-				<img src="" alt="Image 1" class="w-full h-full object-cover object-center rounded">
+				<img src="assets/product/kanalet.png" alt="Image 1" class="w-full h-full object-cover object-center rounded">
 				<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
-					<h2 class="text-white text-center text-3xl font-bold leading-tight">Product Category 1</h2>
+					<h2 class="text-white text-center text-3xl font-bold leading-tight mt-10">Ventilation Systems Components</h2>
 				</div>
 				<div class="absolute bottom-0 left-0 w-full p-4 bg-white text-center" style="height: 6%">
-					<p class="text-gray-700 text-1xl text-base font-bold leading-tight">Product Description 1</p>
+					<p class="text-gray-700 text-1xl text-base font-bold leading-tight">Rectangular, Spiral and Flat-Oval Ducts and Fittings</p>
 				</div>
 			</div>
 			
@@ -117,7 +116,7 @@
 		
 		<!-- Services -->
 		<p class="mt-20 text-4xl text-blue-900 font-semibold text-center">Our Services</p>
-		<div class="mt-20 grid grid-cols-3 gap-8">
+		<div class="mt-20 services-grid grid grid-cols-3 gap-8">
 			<div class="relative" style="height: 800px">
 				<img src="assets/services/project-design.jpg" alt="Image 1" class="w-full h-full object-cover object-center rounded">
 				<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
@@ -129,7 +128,7 @@
 			</div>
 
 			<div class="relative" style="height: 800px">
-				<img src="assets/services/ventilation-system.jpg" alt="Image 4" class="w-full h-full object-cover object-center rounded">
+				<img src="assets/services/heat-pump-system.jpeg" alt="Image 4" class="w-full h-full object-cover object-center rounded">
 				<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
 					<h2 class="text-white text-center text-3xl font-bold">Heat Pump Installations</h2>
 				</div>
@@ -139,7 +138,7 @@
 			</div>
 
 			<div class="relative" style="height: 800px">
-				<img src="assets/services/heat-pump-system.jpeg" alt="Image 3" class="w-full h-full object-cover object-center rounded">
+				<img src="assets/services/ventilation-system.jpg" alt="Image 3" class="w-full h-full object-cover object-center rounded">
 				<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
 					<h2 class="text-white text-center text-3xl font-bold">Ventilation Systems</h2>
 				</div>
@@ -156,26 +155,35 @@
 		</div>
 	</main>
 
-
 	<div class="mt-24 bg-royalblue p-4 contact-button">
-		<p class="text-4xl mt-16 text-white font-semibold text-center">Our Partners</p>
-		<div class="mt-8 flex justify-center items-center">
-			<div class="grid grid-cols-4" style="height: 230px;">
-				<div class="mb-2 flex items-center justify-center mx-8">
-					<img src="assets/partners/meritaterm-logo-white.svg" alt="Partner 1" style="height: 60px;">
+		<p class="partners-text text-4xl mt-16 text-white font-semibold text-center">Our Partners</p>
+		<div class="mt-2 flex justify-center items-center">
+			<div class="partners-grid grid grid-cols-4 gap-4" style="height: 150px; max-width: 100%;">
+	
+				<!-- Partner 1 -->
+				<div class="mb-2 flex items-center justify-center">
+					<embed src="assets/partners/meritaterm-logo-white.svg" alt="Partner 1" style="height: 60px;", class="partners-logo">
 				</div>
-				<div class="mb-2 flex items-center justify-center mx-8">
-					<img src="assets/partners/Asset-25ylliterm-logo-new.svg" alt="Partner 2" style="height: 60px;">
+	
+				<!-- Partner 2 -->
+				<div class="mb-2 flex items-center justify-center">
+					<embed src="assets/partners/YT svg white.svg" alt="Partner 2" style="height: 62px;", class="partners-logo">
 				</div>
-				<div class="flex items-center justify-center mx-8">
-					<img src="assets/partners/1toshiba.svg" alt="Partner 3" style="height: 45px;">
+	
+				<!-- Partner 3 -->
+				<div class="flex items-center justify-center">
+					<embed src="assets/partners/Toshiba_logo.svg" alt="Partner 3" style="height: 30px;", class="partners-logo">
 				</div>
-				<div class="flex items-center justify-center mx-8">
-					<img src="assets/partners/2giacomini.svg" alt="Partner 4" style="height: 40px;">
+	
+				<!-- Partner 4 -->
+				<div class="ml-8 flex items-center justify-center", class="partners-logo">
+					<embed src="assets/partners/2giacomini (1).svg" alt="Partner 4" style="height: 45px;", class="partners-logo">
 				</div>
+	
 			</div>
 		</div>
 	</div>
+	
 	
   <footer class="bg-hero mt-10 py-12">
 		<div class="max-w-8xl mx-auto px-6 lg:flex lg:justify-between lg:items-center">
@@ -210,7 +218,6 @@
 
   </footer>
 	<script src="scripts/cookies.js">
-		AOS.init();
   </script>
 	</body>
 </html>

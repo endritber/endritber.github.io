@@ -13,3 +13,12 @@
   color: rgb(30, 77, 143); 
 }
 
+@media only screen and (max-width: 767px) {
+  .text-map p{
+    font-size: 11px;
+  }
+  .text-map h2{
+    font-size: 19px;
+  }
+ }
+ 
