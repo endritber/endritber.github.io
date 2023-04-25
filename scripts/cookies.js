@@ -5,10 +5,8 @@ function checkCookie(cookieName) {
   // loop through all cookies
   for (var i = 0; i < cookies.length; i++) {
     var cookie = cookies[i].trim();
-    console.log(cookie)
     // check if the cookie matches the specified name and value
     if (cookie === 'accepted_cookies=true') {
-      console.log('here')
       return true;
     }
   }
