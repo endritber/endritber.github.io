@@ -28,26 +28,58 @@
 		<button id="decline-cookies" class="ml-4 bg-gray-300 hover:bg-gray-400 text-gray-700 font-semibold py-2 px-4 rounded">Decline</button>
 	</div>
 	<nav class="px-6 fixed w-full top-0 right-0 bg-hero flex items-center justify-center py-6 z-40">
-		<div class="flex justify-between items-center max-w-6xl w-full">
+		<div class="menu flex justify-between items-center max-w-6xl w-full">
 			<div class="cursor-pointer">
 				<a href="../../index.html">
-					<img src="../../assets/logo/ventaire-logo.svg" width="140" height="50" />
+					<img id='logo' src="../../assets/logo/ventaire-logo.svg" />
 				</a>
 			</div>
 			<div class="hidden md:flex items-center justify-end flex-1 mr-10">
 				<a href="../../index.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Home</a>
 				<a href="../about.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">About</a>
 				<a href="../product.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Products</a>
-				<a href="../services.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Services</a>
+				<a href="../services.html" class="translate items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Services</a>
 				<!-- <a href="#" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Projects</a> -->
 			</div>
-      <div class="ml-auto flex items-center">
+			<div class="hidden md:flex ml-auto flex items-center">
 				<a href="../contact.html" class="px-6 py-3 text-sm contact-button rounded text-white hover:bg-blue-900">Contact</a>
 				<div id="language-switcher" class="flex items-center ml-8 text-sm">
 					<button class="language-link mr-2" onclick="translatePage('de')"><img src="../../assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German"></button>
 					<span class="separator mx-2" style="opacity: 0.5;">|</span>
 					<button class="language-link ml-2" onclick="translatePage('en')"><img src="../../assets/flags/britain-flag-icon.png" class="h-4 w-auto" alt="English"></button>
 				</div>  
+			</div>
+		</div>
+
+		<div class="md:hidden flex items-center ml-6">
+			<button id="sidebar-toggle">
+				<svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M3 12H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M3 6H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</button>
+		</div>
+		<div id="sidebar" class="md:hidden bg-white overflow-y-auto absolute md:relative right-0 md:right-auto top-full md:top-auto md:ml-4" x-data="{ isOpen: false }" x-show="isOpen">
+			<div class="cursor-pointer">
+				<a href="../../index.html">
+					<img id='logo-responsiveness' src="../../assets/logo/ventaire-logo.svg" />
+				</a>
+			</div>
+			<a href="../../index.html" class="block py-2 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Home</a>
+			<a href="../about.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">About</a>
+			<a href="../product.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Products</a>
+			<a href="../services.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Services</a>
+			<a href="../contact.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Contact</a>
+			<div class="mt-4 border-t border-gray-200">
+				<div class="flex items-center px-4 py-3">
+					<img src="../../assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German">
+					<button class="language-link ml-2" onclick="translatePage('de')"><span class="text-sm text-gray-700 font-light hover:text-gray-900">German</span></button>
+				</div>
+				<div class="flex items-center px-4 py-3">
+					<img src="../../assets/flags/britain-flag-icon.png" class="h-4 w-auto" alt="English">
+					<button class="language-link ml-2" onclick="translatePage('en')"><span class="text-sm text-gray-700 font-light hover:text-gray-900">English</span></button>
+				</div>
 			</div>
 		</div>
 	</nav>
@@ -282,5 +314,6 @@
 
   </footer>
   <script src="../../scripts/cookies.js"></script>
+  <script src="../../scripts/navbar.js"></script>
 	</body>
 </html>
