@@ -3,12 +3,17 @@
 <head>
 	<title>Ventaire</title>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="index">
+  <meta name="keywords" content="html, css, javascript">
+  <meta name="author" content="Endrit Berisha">
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/styles/index.css">
 	<link rel="stylesheet" href="assets/flag-icons-main/css/flag-icons.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<script src="https://use.fontawesome.com/a620fca59a.js"></script>
+	
 	<style>
 
 		.max-w-8xl{
@@ -33,11 +38,13 @@
 	
 	<nav class="px-6 fixed w-full top-0 right-0 bg-hero flex items-center justify-center py-6 z-40">
 		<div class="menu flex justify-between items-center max-w-6xl w-full">
+			
 			<div class="cursor-pointer">
 				<a href="index.html">
 					<img id='logo' src="assets/logo/ventaire-logo.svg" />
 				</a>
 			</div>
+			
 			<div class="hidden md:flex items-center justify-end flex-1 mr-10">
 				<a href="index.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Home</a>
 				<a href="src/about.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">About</a>
@@ -45,6 +52,7 @@
 				<a href="src/services.html" class="translate items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Services</a>
 				<!-- <a href="#" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Projects</a> -->
 			</div>
+			
 			<div class="hidden md:flex ml-auto flex items-center">
 				<a href="src/contact.html" class="px-6 py-3 text-sm contact-button rounded text-white hover:bg-blue-900">Contact</a>
 				<div id="language-switcher" class="flex items-center ml-8 text-sm">
@@ -53,6 +61,7 @@
 					<button class="language-link ml-2" onclick="translatePage('en')"><img src="assets/flags/britain-flag-icon.png" class="h-4 w-auto" alt="English"></button>
 				</div>  
 			</div>
+		
 		</div>
 
 		<div class="md:hidden flex items-center ml-6">
@@ -64,17 +73,21 @@
 				</svg>
 			</button>
 		</div>
+
 		<div id="sidebar" class="md:hidden bg-white overflow-y-auto absolute md:relative right-0 md:right-auto top-full md:top-auto md:ml-4" x-data="{ isOpen: false }" x-show="isOpen">
+			
 			<div class="cursor-pointer">
 				<a href="index.html">
 					<img id='logo-responsiveness' src="assets/logo/ventaire-logo.svg" />
 				</a>
 			</div>
+
 			<a href="index.html" class="block py-2 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Home</a>
 			<a href="src/about.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">About</a>
 			<a href="src/product.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Products</a>
 			<a href="src/services.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Services</a>
 			<a href="src/contact.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Contact</a>
+			
 			<div class="mt-4 border-t border-gray-200">
 				<div class="flex items-center px-4 py-3">
 					<img src="assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German">
@@ -85,6 +98,7 @@
 					<button class="language-link ml-2" onclick="translatePage('en')"><span class="text-sm text-gray-700 font-light hover:text-gray-900">English</span></button>
 				</div>
 			</div>
+
 		</div>
 	</nav>
 		
@@ -118,7 +132,7 @@
 					<a href="src/product.html"><h2 class="text-white text-center text-3xl font-bold">Air-to-Water Heat Pumps</h2></a>
 				</div>
 				<div class="absolute bottom-0 left-0 w-full p-4 bg-white text-center" style="height: 6%">
-					<p class="text-gray-700 text-1xl text-base font-bold" style="height: 30px;">Product Description 2</p>
+					<p class="text-gray-700 text-1xl text-base font-bold" style="height: 30px;">Split type Heat Pumps with and without Integrated Domestic Hot Water Tank</p>
 				</div>
 			</div>
 
@@ -128,7 +142,7 @@
 					<a href="src/product.html"><h2 class="text-white text-center text-3xl font-bold">Air-to-Air Heat Pumps</h2></a>
 				</div>
 				<div class="absolute bottom-0 left-0 w-full p-4 bg-white text-center", style="height: 6%">
-					<p class="text-gray-700 text-1xltext-base font-bold" style="height: 30px;">Product Description 3</p>
+					<p class="text-gray-700 text-1xltext-base font-bold" style="height: 30px;">Standard VRF and Heat Recovery VRF Systems</p>
 				</div>
 			</div>
 		</div>
@@ -138,7 +152,6 @@
 				See all products
 			</button>
 		</div>
-		
 		
 		<hr class="mt-32 my-6 border-gray-400"> 
 		
@@ -180,6 +193,7 @@
 				See all services
 			</button>
 		</div>
+
 	</main>
 
 	<div class="mt-24 bg-royalblue p-4 contact-button">
@@ -209,6 +223,7 @@
 	
 			</div>
 		</div>
+
 	</div>
 	
   <footer class="bg-hero mt-10 py-12">
