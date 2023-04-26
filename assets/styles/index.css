@@ -28,13 +28,13 @@
   
   /* Decrease logo heights and remove margin */
   .partners-logo {
-    height: 5px;
+    height: 1px;
     margin: 0;
   }
   
   /* Decrease font size and remove top margin */
   .partners-text {
-    font-size: 27px;
+    font-size: 20px;
     margin-top: 0;
   }
 
@@ -47,7 +47,7 @@
   }
 
   .sm:w-40 {
-    width: 100%; /* Set width to 100% on small devices */
+    width: 50%; /* Set width to 100% on small devices */
   }
 
   #sidebar {
