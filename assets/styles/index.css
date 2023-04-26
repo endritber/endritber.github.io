@@ -43,7 +43,11 @@
   }
 
   .theme-text {
-    font-size: 35px;
+    font-size: 25px;
+  }
+
+  .sm:w-40 {
+    width: 100%; /* Set width to 100% on small devices */
   }
 
   #sidebar {
