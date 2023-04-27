@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="contact">
   <meta name="keywords" content="html, css, javascript">
   <meta name="author" content="Endrit Berisha">
-	<title>Contact | Ventaire</title>
+	<title>Kontakte | Ventaire</title>
 	<link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.17/dist/tailwind.min.css">
-  <link rel="stylesheet" href="../assets/styles/contact.css">
-  <link rel="stylesheet" href="../assets/styles/index.css">
-  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../../assets/styles/contact.css">
+  <link rel="stylesheet" href="../../assets/styles/index.css">
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
   <script src="https://use.fontawesome.com/a620fca59a.js"></script>
 	<style>
 
@@ -35,30 +35,31 @@
 	</div>
 
 	<nav class="px-6 fixed w-full top-0 right-0 bg-hero flex items-center justify-center py-6 z-40">
-		
-    <div class="menu flex justify-between items-center max-w-6xl w-full">
+		<div class="menu flex justify-between items-center max-w-6xl w-full">
+			
 			<div class="cursor-pointer">
-				<a href="../index.html">
-					<img id='logo' src="../assets/logo/ventaire-logo.svg" />
+				<a href="../../index-de.html">
+					<img id='logo' src="../../assets/logo/ventaire-logo.svg" />
 				</a>
 			</div>
-
+			
 			<div class="hidden md:flex items-center justify-end flex-1 mr-10">
-				<a href="../index.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Home</a>
-				<a href="about.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">About</a>
-				<a href="product.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Products</a>
-				<a href="services.html" class="translate items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Services</a>
+				<a href="../../index-de.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Startseite</a>
+				<a href="about.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Über uns</a>
+				<a href="product.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Produkte</a>
+				<a href="services.html" class="translate items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Leistungen</a>
 				<!-- <a href="#" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Projects</a> -->
 			</div>
-
+			
 			<div class="hidden md:flex ml-auto flex items-center">
-				<a href="contact.html" class="px-6 py-3 text-sm contact-button rounded text-white hover:bg-blue-900">Contact</a>
+				<a href="contact.html" class="px-6 py-3 text-sm contact-button rounded text-white hover:bg-blue-900">Kontakt</a>
 				<div id="language-switcher" class="flex items-center ml-8 text-sm">
-					<button class="language-link mr-2" onclick="window.location.href='../index-de.html'"><img src="../assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German"></button>
+					<button class="language-link mr-2" onclick="window.location.href='../../index-de.html'"><img src="../../assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German"></button>
 					<span class="separator mx-2" style="opacity: 0.5;">|</span>
-					<button class="language-link ml-2" onclick="window.location.href='../index.html'"><img src="../assets/flags/britain-flag-icon.png" class="h-4 w-auto" alt="English"></button>
+					<button class="language-link ml-2" onclick="window.location.href='../../index.html'"><img src="../../assets/flags/britain-flag-icon.png" class="h-4 w-auto" alt="English"></button>
 				</div>  
 			</div>
+		
 		</div>
 
 		<div class="md:hidden flex items-center ml-6">
@@ -72,26 +73,27 @@
 		</div>
 
 		<div id="sidebar" class="md:hidden bg-white overflow-y-auto absolute md:relative right-0 md:right-auto top-full md:top-auto md:ml-4" x-data="{ isOpen: false }" x-show="isOpen">
+			
 			<div class="cursor-pointer">
-				<a href="../index.html">
-					<img id='logo-responsiveness' src="../assets/logo/ventaire-logo.svg" />
+				<a href="../../index-de.html">
+					<img id='logo-responsiveness' src="../../assets/logo/ventaire-logo.svg" />
 				</a>
 			</div>
 
-			<a href="../index.html" class="block py-2 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Home</a>
-			<a href="about.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">About</a>
-			<a href="product.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Products</a>
-			<a href="services.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Services</a>
-			<a href="contact.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Contact</a>
+			<a href="../../index-de.html" class="block py-2 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Startseite</a>
+			<a href="about.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Über uns</a>
+			<a href="product.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Produkte</a>
+			<a href="services.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Leistungen</a>
+			<a href="contact.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Kontakt</a>
 			
-      <div class="mt-4 border-t border-gray-200">
+			<div class="mt-4 border-t border-gray-200">
 				<div class="flex items-center px-4 py-3">
-					<img src="../assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German">
-					<button class="language-link ml-2" onclick="window.location.href='../index-de.html'"><span class="text-sm text-gray-700 font-light hover:text-gray-900">German</span></button>
+					<img src="../../assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German">
+					<button class="language-link ml-2" onclick="window.location.href='../../index-de.html'"><span class="text-sm text-gray-700 font-light hover:text-gray-900">German</span></button>
 				</div>
 				<div class="flex items-center px-4 py-3">
-					<img src="../assets/flags/britain-flag-icon.png" class="h-4 w-auto" alt="English">
-					<button class="language-link ml-2" onclick="window.location.href='../index.html'"><span class="text-sm text-gray-700 font-light hover:text-gray-900">English</span></button>
+					<img src="../../assets/flags/britain-flag-icon.png" class="h-4 w-auto" alt="English">
+					<button class="language-link ml-2" onclick="window.location.href='../../index.html'"><span class="text-sm text-gray-700 font-light hover:text-gray-900">English</span></button>
 				</div>
 			</div>
 
@@ -139,9 +141,9 @@
             <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-blue-500 mr-4" viewBox="0 0 20 20" fill="rgb(31, 81, 150)">
               <path fill-rule="evenodd" d="M10.707,17.707c-1.806,1.805-4.242,2.828-6.83,2.828c-2.587,0-5.023-1.023-6.83-2.828C-0.293,15.9-1.316,13.463-1.316,10.875s1.023-5.024,2.828-6.831C4.977-1.293,7.414-2.316,10.001-2.316s5.023,1.023,6.83,2.828c1.805,1.807,2.828,4.242,2.828,6.831s-1.023,5.024-2.828,6.83C14.949,19.512,12.512,20.535,10.707,17.707z M5.636,5.636c-1.562,1.563-2.425,3.654-2.425,5.874c0,2.22,0.863,4.311,2.425,5.874c1.563,1.563,3.654,2.426,5.874,2.426c2.221,0,4.311-0.863,5.874-2.426c1.563-1.563,2.426-3.654,2.426-5.874c0-2.22-0.863-4.311-2.426-5.874c-1.563-1.562-3.654-2.425-5.874-2.425C9.29,3.211,7.199,3.774,5.636,5.636z"></path>
             </svg>
-            <h3 class="mt-8 text-2xl font-bold mb-4">HVAC System Design and Installation</h3>
-            <p class="text-gray-700 leading-relaxed text-lg mb-8">We offer top-quality HVAC system design and installation services to help you maintain a comfortable environment.</p>
-            <a href="about.html" class="contact-button inline-block bg-blue-500 text-white py-3 px-8 rounded hover:bg-blue-900">Learn More</a>
+            <h3 class="mt-8 text-2xl font-bold mb-4">Design und Installation von HVAC-Systemen</h3>
+            <p class="text-gray-700 leading-relaxed text-lg mb-8">Wir bieten hochwertiges HLK-Systemdesign und Installationsservices, um Ihnen zu helfen, eine angenehme Umgebung zu erhalten.</p>
+            <a href="about.html" class="contact-button inline-block bg-blue-500 text-white py-3 px-8 rounded hover:bg-blue-900">Erfahren Sie mehr</a>
           </div>
       </div>
     </section>
@@ -152,40 +154,36 @@
 
   <footer class="bg-hero mt-10 py-12">
 		<div class="max-w-8xl mx-auto px-6 lg:flex lg:justify-between lg:items-center">
-
       <div class="lg:mb-10">
-        <a href="../index.html">
-          <img src="../assets/logo/ventaire-logo.svg" width="150" height="60" alt="Ventaire logo" />
+        <a href="../../index-de.html">
+          <img src="../../assets/logo/ventaire-logo.svg" width="150" height="60" alt="Ventaire logo" />
         </a>
         <div class="text-left text-gray-600 text-sm">
-          &copy; 2023 Ventaire. All rights reserved.
+          &copy; 2023 Ventaire. Alle Rechte vorbehalten.
         </div>
-        <a href="cookies.html"><p class="mt-4 text-gray-700 text-sm">Cookies and Data Privacy Policy</p></a>
+        <a  href="cookies.html"><p class="mt-4 text-gray-700 text-sm">Cookies und Datenschutzrichtlinie</p></a>
       </div>
   
       <div class="flex flex-wrap justify-between lg:w-2/4 lg:pl-2">
-        
         <div class="w-full lg:w-1/3 mt-6 lg:mt-0">
-          <h3 class="text-gray-700 font-medium">Address</h3>
+          <h3 class="text-gray-700 font-medium">Adresse</h3>
           <ul class="mt-4">
             <li><p class="text-sm text-gray-600 inline-flex items-center"><i class="fa fa-map-marker mr-2"></i>Lehmbruckstrasse 26, 10245 Berlin, Germany</p></li>
           </ul>
         </div>
   
         <div class="w-full lg:w-1/3 mt-8 lg:mt-0">
-          <h3 class="text-gray-700 font-medium">Contact Us</h3>
+          <h3 class="text-gray-700 font-medium">Kontaktieren Sie uns</h3>
           <ul class="mt-4">
             <a href="https://wa.me/+4915120211461"><li><p class="text-sm text-gray-600 inline-flex items-center"><i class="fa fa-whatsapp mr-2"></i>+49 151 2021 1461</p></li></a>
            	<a href="mailto:info@ventaire.de"> <li><p class="text-sm text-gray-600 inline-flex items-center"><i class="fa fa-envelope mr-2"></i>info@ventaire.de</p></li></a>
           </ul>
         </div>
-
       </div>
     </div>
-
   </footer>
-  <script src="../scripts/cookies.js"></script>
-  <script src="../scripts/navbar.js"></script>
+	<script src="../../scripts/cookies.js"></script>
+	<script src="../../scripts/navbar.js"></script>
   </body>
 </html>
 
