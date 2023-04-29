@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Products | Ventaire</title>
+	<title>Produkte | Ventaire</title>
   <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="category_v6">
   <meta name="keywords" content="html, css, javascript">
   <meta name="author" content="Endrit Berisha">
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-  <link href="../../assets/styles/contact.css" rel="stylesheet">
-  <link href="../../assets/styles/index.css", rel="stylesheet">
-  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+  <link href="../../../assets/styles/contact.css" rel="stylesheet">
+  <link href="../../../assets/styles/index.css", rel="stylesheet">
+  <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon">
   <script src="https://use.fontawesome.com/a620fca59a.js"></script>
 	<style>
 
@@ -34,26 +34,30 @@
 	</div>
 	<nav class="px-6 fixed w-full top-0 right-0 bg-hero flex items-center justify-center py-6 z-40">
 		<div class="menu flex justify-between items-center max-w-6xl w-full">
+			
 			<div class="cursor-pointer">
-				<a href="../../index.html">
-					<img id='logo' src="../../assets/logo/ventaire-logo.svg" />
+				<a href="../../../index-de.html">
+					<img id='logo' src="../../../assets/logo/ventaire-logo.svg" />
 				</a>
 			</div>
+			
 			<div class="hidden md:flex items-center justify-end flex-1 mr-10">
-				<a href="../../index.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Home</a>
-				<a href="../about.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">About</a>
-				<a href="../product.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Products</a>
-				<a href="../services.html" class="translate items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Services</a>
+				<a href="../../../index-de.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Startseite</a>
+				<a href="../about.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Über uns</a>
+				<a href="../product.html" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Produkte</a>
+				<a href="../services.html" class="translate items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Leistungen</a>
 				<!-- <a href="#" class="items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Projects</a> -->
 			</div>
+			
 			<div class="hidden md:flex ml-auto flex items-center">
-				<a href="../contact.html" class="px-6 py-3 text-sm contact-button rounded text-white hover:bg-blue-900">Contact</a>
+				<a href="../contact.html" class="px-6 py-3 text-sm contact-button rounded text-white hover:bg-blue-900">Kontakt</a>
 				<div id="language-switcher" class="flex items-center ml-8 text-sm">
-					<button class="language-link mr-2" onclick="window.location.href='../de/products/category_v6.html'"><img src="../../assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German"></button>
+					<button class="language-link mr-2" onclick="window.location.href='category_v6.html'"><img src="../../../assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German"></button>
 					<span class="separator mx-2" style="opacity: 0.5;">|</span>
-					<button class="language-link ml-2" onclick="window.location.href='category_v5.html'"><img src="../../assets/flags/britain-flag-icon.png" class="h-4 w-auto" alt="English"></button>
+					<button class="language-link ml-2" onclick="window.location.href='../../products/category_v6.html'"><img src="../../../assets/flags/britain-flag-icon.png" class="h-4 w-auto" alt="English"></button>
 				</div>  
 			</div>
+		
 		</div>
 
 		<div class="md:hidden flex items-center ml-6">
@@ -65,36 +69,41 @@
 				</svg>
 			</button>
 		</div>
+
 		<div id="sidebar" class="md:hidden bg-white overflow-y-auto absolute md:relative right-0 md:right-auto top-full md:top-auto md:ml-4" x-data="{ isOpen: false }" x-show="isOpen">
+			
 			<div class="cursor-pointer">
-				<a href="../../index.html">
-					<img id='logo-responsiveness' src="../../assets/logo/ventaire-logo.svg" />
+				<a href="../../../index-de.html">
+					<img id='logo-responsiveness' src="../../../assets/logo/ventaire-logo.svg" />
 				</a>
 			</div>
-			<a href="../../index.html" class="block py-2 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Home</a>
-			<a href="../about.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">About</a>
-			<a href="../product.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Products</a>
-			<a href="../services.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Services</a>
-			<a href="../contact.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Contact</a>
+
+			<a href="../../../index-de.html" class="block py-2 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Startseite</a>
+			<a href="../about.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Über uns</a>
+			<a href="../product.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Produkte</a>
+			<a href="../services.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Leistungen</a>
+			<a href="../contact.html" class="block py-4 px-4 text-sm text-gray-700 font-light hover:bg-gray-100">Kontakt</a>
+			
 			<div class="mt-4 border-t border-gray-200">
 				<div class="flex items-center px-4 py-3">
-					<img src="../../assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German">
-					<button class="language-link ml-2" onclick="window.location.href='../de/products/category_v6.html'"><span class="text-sm text-gray-700 font-light hover:text-gray-900">German</span></button>
+					<img src="../../../assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German">
+					<button class="language-link ml-2" onclick="window.location.href='category_v6.html'"><span class="text-sm text-gray-700 font-light hover:text-gray-900">German</span></button>
 				</div>
 				<div class="flex items-center px-4 py-3">
-					<img src="../../assets/flags/britain-flag-icon.png" class="h-4 w-auto" alt="English">
-					<button class="language-link ml-2" onclick="window.location.href='category_v5.html'"><span class="text-sm text-gray-700 font-light hover:text-gray-900">English</span></button>
+					<img src="../../../index.html" class="h-4 w-auto" alt="English">
+					<button class="language-link ml-2" onclick="window.location.href='../../products/category_v6.html'"><span class="text-sm text-gray-700 font-light hover:text-gray-900">English</span></button>
 				</div>
 			</div>
+
 		</div>
 	</nav>
 	 
   <main class="px-16">
-    <p class="mt-40 text-4xl text-blue-900 font-semibold text-center">Radiator System Components</p>
+    <p class="mt-40 text-4xl text-blue-900 font-semibold text-center">Komponenten von Kühlersystemen</p>
     <div class="mt-20 services-grid grid grid-cols-4 gap-8">
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/Airfel.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/Airfel.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">Airfel</h5>
         </div>
@@ -102,96 +111,96 @@
       
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/exclusivo.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/exclusivo.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">Exclusivo</h5>
         </div>
       </div>
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R14TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R14TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R14TG</h5>
         </div>
       </div>
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R15TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R15TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R15TG</h5>
         </div>
       </div>
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R401DB.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R401DB.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R401DB</h5>
         </div>
       </div>
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R401TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R401TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R401TG</h5>
         </div>
       </div>
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R402DB.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R402DB.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R402DB</h5>
         </div>
       </div>
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R402TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R402TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R402TG</h5>
         </div>
       </div>
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R411DB.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R411DB.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R411DB</h5>
         </div>
       </div>
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products//Kategoria 6 Radiator Systems Components/R412DB.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products//Kategoria 6 Radiator Systems Components/R412DB.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R53VT</h5>
         </div>
       </div>
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R415DB.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R415DB.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R415DB</h5>
         </div>
       </div>
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R421TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R421TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R421TG</h5>
         </div>
       </div>
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R422TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R422TG.jpg" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R422TG</h5>
         </div>
       </div>
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R468.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R468.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R468</h5>
         </div>
       </div>
 
       <div class="relative" style="height: 200px;">
-        <img src="../../assets/products/Kategoria 6 Radiator Systems Components/R470.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
+        <img src="../../../assets/products/Kategoria 6 Radiator Systems Components/R470.png" alt="Image 1" class="w-full h-full object-contain object-center rounded">
         <div class="absolute bottom-0 left-0 right-0 p-4 bg-gray-900 opacity-50 text-white text-center", style="height: 48px;">
           <h5 class="text-sm font-bold mb-2 text-center">R470</h5>
         </div>
@@ -204,27 +213,26 @@
 	
   <footer class="bg-hero mt-10 py-12">
 		<div class="max-w-8xl mx-auto px-6 lg:flex lg:justify-between lg:items-center">
-
       <div class="lg:mb-10">
-        <a href="../../index.html">
-          <img src="../../assets/logo/ventaire-logo.svg" width="150" height="60" alt="Ventaire logo" />
+        <a href="../../../index-de.html">
+          <img src="../../../assets/logo/ventaire-logo.svg" width="150" height="60" alt="Ventaire logo" />
         </a>
         <div class="text-left text-gray-600 text-sm">
-          &copy; 2023 Ventaire. All rights reserved.
+          &copy; 2023 Ventaire. Alle Rechte vorbehalten.
         </div>
-        <a href="../cookies.html"><p class="mt-4 text-gray-700 text-sm">Cookies and Data Privacy Policy</p></a>
+        <a  href="../cookies.html"><p class="mt-4 text-gray-700 text-sm">Cookies und Datenschutzrichtlinie</p></a>
       </div>
   
       <div class="flex flex-wrap justify-between lg:w-2/4 lg:pl-2">
         <div class="w-full lg:w-1/3 mt-6 lg:mt-0">
-          <h3 class="text-gray-700 font-medium">Address</h3>
+          <h3 class="text-gray-700 font-medium">Adresse</h3>
           <ul class="mt-4">
             <li><p class="text-sm text-gray-600 inline-flex items-center"><i class="fa fa-map-marker mr-2"></i>Lehmbruckstrasse 26, 10245 Berlin, Germany</p></li>
           </ul>
         </div>
   
         <div class="w-full lg:w-1/3 mt-8 lg:mt-0">
-          <h3 class="text-gray-700 font-medium">Contact Us</h3>
+          <h3 class="text-gray-700 font-medium">Kontaktieren Sie uns</h3>
           <ul class="mt-4">
             <a href="https://wa.me/+4915120211461"><li><p class="text-sm text-gray-600 inline-flex items-center"><i class="fa fa-whatsapp mr-2"></i>+49 151 2021 1461</p></li></a>
            	<a href="mailto:info@ventaire.de"> <li><p class="text-sm text-gray-600 inline-flex items-center"><i class="fa fa-envelope mr-2"></i>info@ventaire.de</p></li></a>
@@ -232,9 +240,8 @@
         </div>
       </div>
     </div>
-
   </footer>
-  <script src="../../scripts/cookies.js"></script>
-  <script src="../../scripts/navbar.js"></script>
+	<script src="../../../scripts/cookies.js"></script>
+	<script src="../../../scripts/navbar.js"></script>
 	</body>
 </html>
