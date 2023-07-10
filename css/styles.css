@@ -1,0 +1,81 @@
+.max-w-8xl{
+  max-width: 69rem;
+}
+
+.bg-hero{
+  background: #ffffff;
+}
+
+.square-img {
+  border-radius: 8px;
+  object-fit: cover;
+  height: 460px;
+  width: 460px;
+}
+
+.contact-button {
+  background-color: rgb(37, 85, 153);
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+
+ /* Adjust grid layout to 2 columns */
+  .partners-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Decrease logo heights and remove margin */
+  .partners-logo {
+    height: 1px;
+    margin: 0;
+  }
+  
+  /* Decrease font size and remove top margin */
+  .partners-text {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .theme-text {
+    font-size: 25px;
+  }
+
+  .sm:w-40 {
+    width: 50%; /* Set width to 100% on small devices */
+  }
+
+  #sidebar {
+    display: block;
+    position: fixed;
+    top: 9.2rem; /* adjust as needed */
+    right: 0;
+    bottom: 0;
+    left: auto;
+    width: 100%;
+    max-width: 20rem; /* adjust as needed */
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(250, 249, 249);
+  }
+
+  #sidebar.show {
+    transform: translateX(0);
+  }
+  
+  #logo-responsiveness {
+    margin-left: 120px;
+    margin-top: 10px;
+    width:100px;
+    height: 50px;
+  }
+}
