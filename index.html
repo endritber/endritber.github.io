@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Ventaire</title>
@@ -15,155 +15,77 @@
 </head>
 
 <body>
-	<!-- <div id="cookie-popup" class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-300 p-8 z-50 text-center hidden">
-		<p class="mb-4"> By continuing to use our website, you consent to our use of cookies. To learn more, please see our <a href="src/cookies.html" class="underline">cookie policy</a>.</p>
-		<hr class="my-4">
-		<button id="accept-cookies" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Accept</button>
-		<button id="decline-cookies" class="ml-4 bg-gray-300 hover:bg-gray-400 text-gray-700 font-semibold py-2 px-4 rounded">Decline</button>
-	</div> -->
-
-  <!-- Start of Navbar -->
-  <div class="navbar">
-    <!-- Include the navbar.html file -->
-    <div id="navbar"></div>
+  <!-- Include the cookie-popup.html file -->
+  <div id="cookie-popup" class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-300 p-4 z-10 text-center hidden">
+    <span class="mb-2" id="cookie-message"></span>
+    <hr class="my-2">
+    <button id="accept-cookies" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-2 rounded"></button>
+    <button id="decline-cookies" class="ml-4 bg-gray-300 hover:bg-gray-400 text-gray-700 font-semibold py-2 px-2 rounded"></button>
   </div>
-	<!-- End of Navbar -->
-  
-	<hr class="my-6 border-gray-400">
-	
+
+  <!-- Include the navbar.html file -->
+  <div id="navbar"></div>
+
+  <hr class="my-6 border-gray-400">
+
   <div class="flex items-center justify-center h-screen bg-center bg-cover bg-opacity-50" style="background-image: url('assets/theme.jpg');">
-		<div class="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50"></div>
-		<div class="relative z-10 text-white text-center">
-				<h1 class="theme-text px-40 text-5xl font-bold mb-5">Your trusted source for efficient and effective Heating, Air Conditioning, and Ventilation Solutions</h1>
-				<p class="text-xl font-light mb-8"></p>
-				<button onclick="" class="w-full mt-4 sm:mt-0  sm:w-40 px-4 py-3 rounded font-semibold text-md text-white border-2 border-gray-300 rounded text-white hover:bg-blue-900">More About us</button>
-		</div>
-	</div>
-	
-  <!-- Start of Main -->
-	<main class="px-4">
-		<p class="mt-20 text-4xl text-blue-900 font-semibold text-center">Our Products</p>
-		<div class="mt-20 services-grid grid grid-cols-3 gap-8">
-			<div class="relative" style="height: 800px">
-				<a href=""><img src="assets/products/Category1.png" alt="Image 1" class="w-full h-full object-cover object-center rounded">
-				<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
-					<h2 class="text-white text-center text-3xl font-bold leading-tight">Ventilation Systems Components</h2>
-				</div>
-				<div class="absolute bottom-0 left-0 w-full p-4 bg-white text-center" style="height: 6%">
-					<p class="text-gray-700 text-1xl text-base font-bold leading-tight">Rectangular, Spiral and Flat-Oval Ducts and Fittings</p>
-				</div>
-				</a>
-			</div>
-			<div class="relative" style="height: 800px">
-				<a href=""><img src="assets/products/Category2.jpg" alt="Image 2" class="w-full h-full object-cover object-center rounded">
-				<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
-					<h2 class="text-white text-center text-3xl font-bold">Air-to-Water Heat Pumps</h2>
-				</div>
-				<div class="absolute bottom-0 left-0 w-full p-4 bg-white text-center" style="height: 6%">
-					<p class="text-gray-700 text-1xl text-base font-bold" style="height: 30px;">Split type Heat Pumps with and without Integrated Domestic Hot Water Tank</p>
-				</div>
-				</a>
-			</div>
-			<div class="relative" style="height: 800px">
-				<a href=""><img src="assets/products/Category3.png" alt="Image 3" class="w-full h-full object-cover object-center rounded">
-				<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
-					<h2 class="text-white text-center text-3xl font-bold">Air-to-Air Heat Pumps</h2>
-				</div>
-				<div class="absolute bottom-0 left-0 w-full p-4 bg-white text-center", style="height: 6%">
-					<p class="text-gray-700 text-1xltext-base font-bold" style="height: 30px;">Standard VRF and Heat Recovery VRF Systems</p>
-				</div>
-				</a>
-			</div>
-		</div>
-		<div class="flex justify-center">
-			<button onclick="" class="w-full mt-10 sm:mt-20 sm:ml-4 sm:w-40 px-4 py-3 rounded align-center font-semibold text-gray-700 bg-white leading border-2 border-gray-500 hover:bg-gray-200">
-				See all products
-			</button>
-		</div>
-		
-		<hr class="mt-32 my-6 border-gray-400"> 
-		
-		<p class="mt-20 text-4xl text-blue-900 font-semibold text-center">Our Services</p>
-		<div class="mt-20 services-grid grid grid-cols-3 gap-8">
-			<div class="relative" style="height: 800px">
-				<img src="assets/services/project-design.jpg" alt="Image 1" class="w-full h-full object-cover object-center rounded">
-				<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
-					<h2 class="text-white text-center text-3xl font-bold">Project Design</h2>
-				</div>
-				<div class="absolute bottom-0 left-0 w-full p-4 bg-white text-center", style="height: 6%;">
-					<p class="text-gray-700 text-1xl text-base font-bold" style="height: 30px;">HVAC System and Project Design</p>
-				</div>
-			</div>
-			<div class="relative" style="height: 800px">
-				<img src="assets/services/heat-pump-system.jpeg" alt="Image 4" class="w-full h-full object-cover object-center rounded">
-				<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
-					<h2 class="text-white text-center text-3xl font-bold">Heat Pump Installations</h2>
-				</div>
-				<div class="absolute bottom-0 left-0 w-full p-4 bg-white text-center", style="height: 6%;">
-					<p class="text-gray-700 text-1xl text-base font-bold" style="height: 30px;">Residential and Commercial Air-to-Water and Air-to-Air Heat Pump Installations</p>
-				</div>
-			</div>
-			<div class="relative" style="height: 800px">
-				<img src="assets/services/ventilation-system.jpg" alt="Image 3" class="w-full h-full object-cover object-center rounded">
-				<div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50">
-					<h2 class="text-white text-center text-3xl font-bold">Ventilation Systems</h2>
-				</div>
-				<div class="absolute bottom-0 left-0 w-full p-4 bg-white text-center", style="height: 6%;">
-					<p class="text-gray-700 text-1xl text-base font-bold" style="height: 30px;">Residential and Commercial Ventilation Systems	</p>
-				</div>
-			</div>
-		</div>
-		<div class="flex justify-center">
-			<button onclick="" class="w-full mt-10 sm:mt-20 sm:ml-4 sm:w-40 px-4 py-3 rounded align-center font-semibold text-gray-700 bg-white leading border-2 border-gray-500 hover:bg-gray-200">
-				See all services
-			</button>
-		</div>
-	</main>
-  <!-- End of Main -->
-  <!-- Start of Partners -->
-	<div class="mt-24 bg-royalblue p-4", style="background-color: rgb(37, 85, 153);">
-		<p class="partners-text text-4xl mt-16 text-white font-semibold text-center">Our Partners</p>
-		<div class="mt-2 flex justify-center items-center">
-			<div class="partners-grid grid grid-cols-4 gap-4" style="height: 150px; max-width: 100%;">
-				<div class="mb-2 flex items-center justify-center">
-					<embed src="assets/partners/meritaterm.svg" alt="Partner 1" style="height: 60px;", class="partners-logo">
-				</div>
-				<div class="mb-2 flex items-center justify-center">
-					<embed src="assets/partners/ylliterm.svg" alt="Partner 2" style="height: 62px;", class="partners-logo">
-				</div>
-				<div class="flex items-center justify-center">
-					<embed src="assets/partners/toshiba.svg" alt="Partner 3" style="height: 30px;", class="partners-logo">
-				</div>
-				<div class="ml-8 flex items-center justify-center", class="partners-logo">
-					<embed src="assets/partners/giacomini.svg" alt="Partner 4" style="height: 45px;", class="partners-logo">
-				</div>
-  		</div>
-		</div>
-	</div>
-  <!-- End of Partners -->
-	<!-- Start of footer -->
-  <div class="footer">
-    <!-- Include the navbar.html file -->
-    <div id="footer"></div>
+    <div class="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50"></div>
+    <div class="relative z-10 text-white text-center">
+      <h1 class="theme-text px-40 text-4xl font-bold mb-5" id="main-title"></h1>
+      <p class="text-xl font-light mb-8" id="main-subtitle"></p>
+      <button onclick="" class="w-full mt-4 sm:mt-0  sm:w-40 px-4 py-3 rounded font-semibold text-md text-white border-2 border-gray-300 rounded text-white hover:bg-blue-900" id="main-button"></button>
+    </div>
   </div>
-  <!-- End of Footer -->
-	</body>
-  <script src="js/sidebar.js"></script>
-  <script>
-    // Function to fetch and load the content from a file
-    function loadContent(file, elementId) {
-      fetch(file)
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById(elementId).innerHTML = data;
-        })
-        .catch((error) => {
-          console.error('Error fetching content:', error);
-        });
-    }
 
-    // Load the navbar content
-    loadContent('includes/navbar.html', 'navbar');
-    loadContent('includes/footer.html', 'footer');
-  </script>
+  <!-- Start of Main -->
+  <main class="px-4">
+    <p class="mt-20 text-4xl text-blue-900 font-semibold text-center" id="main-products-heading"></p>
+    <div class="mt-20 services-grid grid grid-cols-3 gap-8" id="product-grid"></div>
+    <div class="flex justify-center">
+      <button onclick="" class="w-full sm:w-auto mt-10 sm:mt-20 sm:ml-4 sm:w-52 px-4 py-3 rounded align-center font-semibold text-gray-700 bg-white leading border-2 border-gray-500 hover:bg-gray-200" id="main-see-all-products"></button>
+
+    </div>
+
+    <hr class="mt-32 my-6 border-gray-400">
+
+    <p class="mt-20 text-4xl text-blue-900 font-semibold text-center" id="main-services-heading"></p>
+    <div class="mt-20 services-grid grid grid-cols-3 gap-8" id="service-grid"></div>
+    <div class="flex justify-center">
+      <button onclick="" class="w-full sm:w-auto mt-10 sm:mt-20 sm:ml-4 sm:w-52 px-4 py-3 rounded align-center font-semibold text-gray-700 bg-white leading border-2 border-gray-500 hover:bg-gray-200" id="main-see-all-services"></button>
+
+    </div>
+  </main>
+  <!-- End of Main -->
+
+  <!-- Start of Partners -->
+  <div class="mt-24 bg-royalblue p-4" style="background-color: rgb(37, 85, 153);">
+    <p class="partners-text text-4xl mt-16 text-white font-semibold text-center" id="partners-heading"></p>
+    <div class="mt-2 flex justify-center items-center">
+      <div class="partners-grid grid grid-cols-4 gap-4" style="height: 150px; max-width: 100%;">
+        <div class="mb-2 flex items-center justify-center">
+          <embed src="assets/partners/meritaterm.svg" alt="Partner 1" style="height: 60px;" class="partners-logo">
+        </div>
+        <div class="mb-2 flex items-center justify-center">
+          <embed src="assets/partners/ylliterm.svg" alt="Partner 2" style="height: 62px;" class="partners-logo">
+        </div>
+        <div class="flex items-center justify-center">
+          <embed src="assets/partners/toshiba.svg" alt="Partner 3" style="height: 30px;" class="partners-logo">
+        </div>
+        <div class="ml-8 flex items-center justify-center" class="partners-logo">
+          <embed src="assets/partners/giacomini.svg" alt="Partner 4" style="height: 45px;" class="partners-logo">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Partners -->
+
+  <!-- Include the footer.html file -->
+  <div id="footer"></div>
+
+</body>
+
+  <script src="js/include.js"></script>
+  <script src="js/cookies.js"></script>
+  <script src="js/indexMain.js"></script>
+	<script src="js/translate.js"></script>
 </html>

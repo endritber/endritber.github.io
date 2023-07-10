@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Ventilation Systems Components",
+    "description": "Rectangular, Spiral and Flat-Oval Ducts and Fittings",
+    "imageSrc": "../assets/products/Category1.png",
+    "link": "#"
+  },
+  {
+    "title": "Air-to-Water Heat Pumps",
+    "description": "Split type Heat Pumps with and without Integrated Domestic Hot Water Tank",
+    "imageSrc": "../assets/products/Category2.jpg",
+    "link": "#"
+  },
+  {
+    "title": "Air-to-Air Heat Pumps",
+    "description": "Standard VRF and Heat Recovery VRF Systems",
+    "imageSrc": "../assets/products/Category3.png",
+    "link": "#"
+  }
+]
