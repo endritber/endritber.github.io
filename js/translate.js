@@ -1,4 +1,3 @@
-// Helper function to load the translation data based on the selected language
 function loadTranslation(language) {
   return fetch(`locales/${language}.json`)
     .then((response) => response.json())
@@ -8,7 +7,6 @@ function loadTranslation(language) {
     });
 }
 
-// Helper function to update the text content based on the loaded translation
 function translateContent(translation) {
   Object.keys(translation).forEach((key) => {
     const element = document.getElementById(key);
@@ -18,7 +16,6 @@ function translateContent(translation) {
   });
 }
 
-// Function to handle language change
 function handleLanguageChange(event) {
   const target = event.target;
   if (target.id === "german-btn") {
@@ -34,12 +31,10 @@ function handleLanguageChange(event) {
   }
 }
 
-// Load the selected language from localStorage or default to English
 const selectedLanguage = localStorage.getItem("selectedLanguage") || "en";
 loadTranslation(selectedLanguage).then((translation) => {
   translateContent(translation);
 });
 
-// Add event listener to the parent element of the buttons
 const navbar = document.getElementById("navbar");
 navbar.addEventListener("click", handleLanguageChange);

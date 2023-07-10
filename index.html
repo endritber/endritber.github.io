@@ -1,5 +1,5 @@
-!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
 	<title>Ventaire</title>
 	<meta charset="UTF-8">
@@ -7,7 +7,6 @@
 	<meta name="description" content="index">
   <meta name="keywords" content="html, css, javascript">
   <meta name="author" content="Endrit Berisha">
-  <!-- Tailwind CSS -->
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
@@ -15,7 +14,7 @@
 </head>
 
 <body>
-  <!-- Include the cookie-popup.html file -->
+  <!-- TODO: Need to save this to include and make a popup -->
   <div id="cookie-popup" class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-300 p-4 z-10 text-center hidden">
     <span class="mb-2" id="cookie-message"></span>
     <hr class="my-2">
@@ -26,8 +25,7 @@
   <!-- Include the navbar.html file -->
   <div id="navbar"></div>
 
-  <hr class="my-6 border-gray-400">
-
+  <!-- Theme -->
   <div class="flex items-center justify-center h-screen bg-center bg-cover bg-opacity-50" style="background-image: url('assets/theme.jpg');">
     <div class="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50"></div>
     <div class="relative z-10 text-white text-center">
@@ -43,16 +41,15 @@
     <div class="mt-20 services-grid grid grid-cols-3 gap-8" id="product-grid"></div>
     <div class="flex justify-center">
       <button onclick="" class="w-full sm:w-auto mt-10 sm:mt-20 sm:ml-4 sm:w-52 px-4 py-3 rounded align-center font-semibold text-gray-700 bg-white leading border-2 border-gray-500 hover:bg-gray-200" id="main-see-all-products"></button>
-
     </div>
 
+    <!-- Add Break Line -->
     <hr class="mt-32 my-6 border-gray-400">
 
     <p class="mt-20 text-4xl text-blue-900 font-semibold text-center" id="main-services-heading"></p>
     <div class="mt-20 services-grid grid grid-cols-3 gap-8" id="service-grid"></div>
     <div class="flex justify-center">
       <button onclick="" class="w-full sm:w-auto mt-10 sm:mt-20 sm:ml-4 sm:w-52 px-4 py-3 rounded align-center font-semibold text-gray-700 bg-white leading border-2 border-gray-500 hover:bg-gray-200" id="main-see-all-services"></button>
-
     </div>
   </main>
   <!-- End of Main -->
@@ -81,11 +78,9 @@
 
   <!-- Include the footer.html file -->
   <div id="footer"></div>
-
 </body>
-
-  <script src="js/include.js"></script>
-  <script src="js/cookies.js"></script>
-  <script src="js/indexMain.js"></script>
-	<script src="js/translate.js"></script>
+<script src="js/include.js"></script>
+<script src="js/cookies.js"></script>
+<script src="js/indexMain.js"></script>
+<script src="js/translate.js"></script>
 </html>

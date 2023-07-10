@@ -1,5 +1,4 @@
- // Function to fetch and load the content from a file
- function loadContent(file, elementId) {
+function loadContent(file, elementId) {
   fetch(file)
     .then((response) => response.text())
     .then((data) => {
