@@ -12,6 +12,8 @@ function translateContent(translation) {
     const element = document.getElementById(key);
     if (element) {
       element.textContent = translation[key];
+    } else {
+      console.warn(`Element not found for ID: ${key}`);
     }
   });
 }
@@ -33,6 +35,7 @@ function handleLanguageChange(event) {
 
 const selectedLanguage = localStorage.getItem("selectedLanguage") || "de";
 loadTranslation(selectedLanguage).then((translation) => {
+  console.log('here');
   translateContent(translation);
 });
 
