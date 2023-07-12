@@ -12,9 +12,28 @@ function translateContent(translation) {
     const element = document.getElementById(key);
     if (element) {
       element.textContent = translation[key];
-    } else {
-      console.warn(`Element not found for ID: ${key}`);
     }
+  });
+}
+
+function initializeHomePage() {
+  const selectedLanguage = localStorage.getItem("selectedLanguage") || "de";
+  loadTranslation(selectedLanguage).then((translation) => {
+    setTimeout(() => {
+      translateContent(translation);
+    }, 0);
+  });
+
+  const navbar = document.getElementById("navbar");
+  navbar.addEventListener("click", handleLanguageChange);
+}
+
+function initializeAboutPage() {
+  const selectedLanguage = localStorage.getItem("selectedLanguage") || "de";
+  loadTranslation(selectedLanguage).then((translation) => {
+    setTimeout(() => {
+      translateContent(translation);
+    }, 0);
   });
 }
 
@@ -22,22 +41,27 @@ function handleLanguageChange(event) {
   const target = event.target;
   if (target.id === "german-btn") {
     loadTranslation("de").then((translation) => {
-      translateContent(translation);
-      localStorage.setItem("selectedLanguage", "de");
+      setTimeout(() => {
+        translateContent(translation);
+        localStorage.setItem("selectedLanguage", "de");
+      }, 0);
     });
   } else if (target.id === "english-btn") {
     loadTranslation("en").then((translation) => {
-      translateContent(translation);
-      localStorage.setItem("selectedLanguage", "en");
+      setTimeout(() => {
+        translateContent(translation);
+        localStorage.setItem("selectedLanguage", "en");
+      }, 0);
     });
   }
 }
 
-const selectedLanguage = localStorage.getItem("selectedLanguage") || "de";
-loadTranslation(selectedLanguage).then((translation) => {
-  console.log('here');
-  translateContent(translation);
-});
+// Home Page Initialization
+if (document.body.classList.contains("home-page")) {
+  initializeHomePage();
+}
 
-const navbar = document.getElementById("navbar");
-navbar.addEventListener("click", handleLanguageChange);
+// About Page Initialization
+if (document.body.classList.contains("about-page")) {
+  initializeAboutPage();
+}
