@@ -31,7 +31,7 @@ function handleLanguageChange(event) {
   }
 }
 
-const selectedLanguage = localStorage.getItem("selectedLanguage") || "en";
+const selectedLanguage = localStorage.getItem("selectedLanguage") || "de";
 loadTranslation(selectedLanguage).then((translation) => {
   translateContent(translation);
 });
