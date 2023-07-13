@@ -23,9 +23,6 @@ function initializeHomePage() {
       translateContent(translation);
     }, 0);
   });
-
-  const navbar = document.getElementById("navbar");
-  navbar.addEventListener("click", handleLanguageChange);
 }
 
 function initializeAboutPage() {
@@ -65,3 +62,6 @@ if (document.body.classList.contains("home-page")) {
 if (document.body.classList.contains("about-page")) {
   initializeAboutPage();
 }
+
+const navbar = document.getElementById("navbar");
+navbar.addEventListener("click", handleLanguageChange);
