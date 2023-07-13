@@ -54,8 +54,13 @@ if (document.body.classList.contains("about-page")) {
   initializePage();
 }
 
-// About Page Initialization
+// Sercvies Page Initialization
 if (document.body.classList.contains("services-page")) {
+  initializePage();
+}
+
+// Contact Page Initialization
+if (document.body.classList.contains("contact-page")) {
   initializePage();
 }
 

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="contact">
+  <meta name="keywords" content="html, css, javascript">
+  <meta name="author" content="Endrit Berisha">
+	<title>Contact | Ventaire</title>
+	<link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.17/dist/tailwind.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <script src="https://use.fontawesome.com/a620fca59a.js"></script>
+</head>
+
+<body class="contact-page">
+
+  <!-- TODO: Need to save this to include and make a popup -->
+  <div id="cookie-popup" class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-300 p-4 z-10 text-center hidden">
+    <span class="mb-2" id="cookie-message"></span>
+    <hr class="my-2">
+    <button id="accept-cookies" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-2 rounded"></button>
+    <button id="decline-cookies" class="ml-4 bg-gray-300 hover:bg-gray-400 text-gray-700 font-semibold py-2 px-2 rounded"></button>
+  </div>
+
+  <!-- Include the navbar.html file -->
+  <div id="navbar"></div>  
+	
+  <!-- Start of Main -->
+  <main class="mx-auto my-12 px-4 mt-48">
+
+    <div class="flex flex-row h-96 text-map">
+      <div class="flex-1 bg-center bg-cover h-full flex flex-col justify-center items-center rounded-sm text-map" style="background-color: rgb(31, 81, 150);">
+        <h2 class="mb-6 text-white text-3xl font-bold mb-4"><i class="fas fa-map-marker-alt mr-2"></i>Germany</h2>
+        <hr class="my-2 border-blue-900 w-1/6">
+        <a href="https://www.google.com/maps/search/?api=1&query=Lehmbruckstraße%2026%2C%2010245%20Berlin%2C%20Germany" target="_blank" class="text-white hover:underline">
+          <p class="text-white text-center text-lg font-medium">
+            <i class="fa fa-home mr-2"></i>
+            Lehmbruckstraße 26
+          </p>
+          <p class="text-white text-center text-lg font-medium">
+            <i class="fa fa-city mr-2"></i>
+            10245 Berlin, Germany
+          </p>
+        </a>
+        <p class="text-white text-center text-lg font-sm">
+          <i class="fa fa-envelope mr-2"></i>
+          <a href="mailto:info@ventaire.de" class="text-white hover:underline">info@ventaire.de</a>
+        </p>
+        <p class="text-white text-center text-lg font-sm">
+          <i class="fa fa-phone mr-2"></i>
+          <a href="tel:+4915120211461" class="text-white hover:underline">+49 151 2021 1461</a>
+        </p>
+      </div>
+      
+  
+      <div class="flex-1 h-full">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.2363786353996!2d13.453302915805427!3d52.503556979811934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84f5a5b752e6f%3A0x63e36d8b7a56ec48!2sLehmbruckstra%C3%9Fe%2026%2C%2010245%20Berlin%2C%20Germany!5e0!3m2!1sen!2sde!4v1647831717947!5m2!1sen!2sde"
+          class="w-full h-full rounded-sm"
+          frameborder="0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0">
+        </iframe>
+      </div>
+  
+      <div class="flex-1 bg-center bg-cover h-full flex flex-col justify-center items-center rounded-sm text-map" style="background-color: rgb(31, 81, 150);">
+        <h2 class="text-white text-3xl font-bold mb-4"><i class="fas fa-map-marker-alt mr-2"></i>Kosovo</h2>
+        <hr class="my-2 border-blue-900 w-1/6">
+        <p class="text-white text-center text-lg font-medium">
+          <a href="https://www.google.com/maps/search/?api=1&query=Magjistralja%20Prishtin%C3%AB-Ferizaj%20Udhekryqi%20Lipjan%20-%20Janjev%C3%AB%2C%20R120" target="_blank" class="text-white hover:underline">
+            <i class="fa fa-home mr-2"></i>
+            Magjistralja Prishtinë-Ferizaj<br>Udhekryqi Lipjan - Janjevë, R120<br>
+            <i class="fa fa-city mr-2"></i>
+            10000 Prishtina, Kosovo
+          </a>
+        </p>
+        <p class="text-white text-center text-lg font-sm">
+          <i class="fa fa-envelope mr-2"></i>
+          <a href="mailto:info@ventaire.de" class="text-white hover:underline">info@ventaire.de</a>
+        </p>
+        <p class="text-white text-center text-lg font-sm">
+          <i class="fa fa-phone mr-2"></i>
+          <a href="tel:+38343820000" class="text-white hover:underline">+383 43 820 000</a>
+        </p>
+      </div>
+      
+
+      <div class="flex-1 h-full">
+        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCsDSJaUOrdqE8-VKnWezIzxZraUm0-z5M&q=Magjistralja+Prishtinë-Ferizaj+Udhekryqi+Lipjan+-+Janjevë,+R120"
+          class="w-full h-full rounded-sm"
+          frameborder="0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+    </div>
+
+    <section class="mt-24 bg-gray-100 py-12 text-center">
+      <div class="container mx-auto px-4">
+          <div class="flex flex-col items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-blue-500 mr-4" viewBox="0 0 20 20" fill="rgb(31, 81, 150)">
+              <path fill-rule="evenodd" d="M10.707,17.707c-1.806,1.805-4.242,2.828-6.83,2.828c-2.587,0-5.023-1.023-6.83-2.828C-0.293,15.9-1.316,13.463-1.316,10.875s1.023-5.024,2.828-6.831C4.977-1.293,7.414-2.316,10.001-2.316s5.023,1.023,6.83,2.828c1.805,1.807,2.828,4.242,2.828,6.831s-1.023,5.024-2.828,6.83C14.949,19.512,12.512,20.535,10.707,17.707z M5.636,5.636c-1.562,1.563-2.425,3.654-2.425,5.874c0,2.22,0.863,4.311,2.425,5.874c1.563,1.563,3.654,2.426,5.874,2.426c2.221,0,4.311-0.863,5.874-2.426c1.563-1.563,2.426-3.654,2.426-5.874c0-2.22-0.863-4.311-2.426-5.874c-1.563-1.562-3.654-2.425-5.874-2.425C9.29,3.211,7.199,3.774,5.636,5.636z"></path>
+            </svg>
+            <h3 class="mt-8 text-2xl font-bold mb-4" id="contact-hvac-title"></h3>
+            <p class="text-gray-700 leading-relaxed text-lg mb-8" id="contact-hvac-description"></p>
+            <a href="/about.html" id="contact-hvac-learn-more" class="inline-block bg-blue-500 text-white py-3 px-8 rounded hover:bg-blue-900", style="background-color: rgb(31, 81, 150);"></a>
+          </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- End of Main -->
+
+  <!-- Include the footer.html file -->
+  <div id="footer"></div>
+
+</body>
+<script src="js/include.js"></script>
+<script src="js/cookies.js"></script>
+<script src="js/translate.js"></script>
+</html>
+
+	

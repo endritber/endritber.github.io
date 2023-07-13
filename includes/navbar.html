@@ -10,7 +10,7 @@
       <a href="/services.html" id="navbar-services"class="translate items-center ml-8 text-big text-gray-700 font-light hover:text-gray-900">Services</a>
     </div> 
     <div class="hidden md:flex ml-auto flex items-center">
-      <a href="" id="navbar-contact" class="px-6 py-3 text-sm rounded text-white hover:bg-blue-900" style="background-color: rgb(37, 85, 153);">Contact</a>
+      <a href="/contact.html" id="navbar-contact" class="px-6 py-3 text-sm rounded text-white hover:bg-blue-900" style="background-color: rgb(37, 85, 153);">Contact</a>
       <div id="language-switcher" class="flex items-center ml-8 text-sm">
         <button class="language-link mr-2" onclick=""><img id="german-btn" src="assets/flags/german-flag-icon.png" class="h-4 w-auto" alt="German"></button>
         <span class="separator mx-2" style="opacity: 0.5;">|</span>
@@ -24,6 +24,7 @@
       var navbarHome = document.getElementById("navbar-home");
       var navbarAbout = document.getElementById("navbar-about");
       var navbarServices = document.getElementById('navbar-services')
+      var navbarContact = document.getElementById('navbar-contact')
   
       if (navbarHome && navbarAbout) {
         var currentHost = window.location.host;
@@ -31,6 +32,7 @@
         navbarHome.href = `http://${currentHost}/`;
         navbarAbout.href = `http://${currentHost}/about.html`;
         navbarServices.href = `http://${currentHost}/services.html`;
+        navbarContact.href = `http://${currentHost}/contact.html`; 
       }
     });
   </script>
