@@ -27,13 +27,13 @@ function generateItemsHTML(items, containerId) {
     container.innerHTML = itemsHTML;
   }
 
-  fetch('../data/indexProducts.json')
+  fetch('../locales/indexProducts.json')
     .then(response => response.json())
     .then(productsData => {
       generateItemsHTML(productsData, 'product-grid');
     });
 
-  fetch('../data/indexServices.json')
+  fetch('../locales/indexServices.json')
     .then(response => response.json())
     .then(servicesData => {
       generateItemsHTML(servicesData, 'service-grid');
