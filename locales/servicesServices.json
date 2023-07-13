@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Project Design",
+    "description": "HVAC System and Project Design",
+    "imageSrc": "assets/services/project-design.jpg"
+  },
+  {
+    "title": "Heat Pump Installations",
+    "description": "Residential and Commercial Air-to-Water and Air-to-Air Heat Pump Installations",
+    "imageSrc": "assets/services/heat-pump-system.jpeg"
+  },
+  {
+    "title": "Ventilation Systems",
+    "description": "Residential and Commercial Ventilation Systems",
+    "imageSrc": "assets/services/ventilation-system.jpg"
+  },
+  {
+    "title": "Underfloor heating systems",
+    "description": "Underfloor heating systems",
+    "imageSrc": "assets/services/underfloor heating web.png"
+  },
+  {
+    "title": "Steel and Aluminum Panel Radiators",
+    "description": "Installation of Piping and Radiator Systems",
+    "imageSrc": "assets/services/radiator-systems.jpg" 
+  },
+  {
+    "title": "Toshiba Residential Split and Multisplit",
+    "description": "Installation of Single and Multisplit Air Conditioning Systems",
+    "imageSrc": "assets/services/split and multi.png" 
+  },
+  {
+    "title": "Central Ventilation Units",
+    "description": "Installation of Central Ventilation Units and Components",
+    "imageSrc": "assets/services/ahu-hru.png" 
+  },
+  {
+    "title": "Water Terminal Units",
+    "description": "Installation of Water Heating&Cooling Network and Terminal Units",
+    "imageSrc": "assets/services/fancoils.png" 
+  },
+  {
+    "title": "Central Cooling and Heating",
+    "description": "Installation of Industrial Heat Pumps and Water Chillers",
+    "imageSrc": "assets/services/chillers.png" 
+  }
+]

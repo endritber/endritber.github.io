@@ -16,21 +16,12 @@ function translateContent(translation) {
   });
 }
 
-function initializeHomePage() {
+function initializePage() {
   const selectedLanguage = localStorage.getItem("selectedLanguage") || "de";
   loadTranslation(selectedLanguage).then((translation) => {
     setTimeout(() => {
       translateContent(translation);
-    }, 0);
-  });
-}
-
-function initializeAboutPage() {
-  const selectedLanguage = localStorage.getItem("selectedLanguage") || "de";
-  loadTranslation(selectedLanguage).then((translation) => {
-    setTimeout(() => {
-      translateContent(translation);
-    }, 0);
+    }, 1);
   });
 }
 
@@ -41,26 +32,31 @@ function handleLanguageChange(event) {
       setTimeout(() => {
         translateContent(translation);
         localStorage.setItem("selectedLanguage", "de");
-      }, 0);
+      }, 1);
     });
   } else if (target.id === "english-btn") {
     loadTranslation("en").then((translation) => {
       setTimeout(() => {
         translateContent(translation);
         localStorage.setItem("selectedLanguage", "en");
-      }, 0);
+      }, 1);
     });
   }
 }
 
 // Home Page Initialization
 if (document.body.classList.contains("home-page")) {
-  initializeHomePage();
+  initializePage();
 }
 
 // About Page Initialization
 if (document.body.classList.contains("about-page")) {
-  initializeAboutPage();
+  initializePage();
+}
+
+// About Page Initialization
+if (document.body.classList.contains("services-page")) {
+  initializePage();
 }
 
 const navbar = document.getElementById("navbar");
